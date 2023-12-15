@@ -94,7 +94,7 @@ body {
   justify-content: space-between;
 }
 
-.header .searchbar input{
+.header .searchbar input {
   width: 100%;
   background: rgba(211, 76, 101, 0.5);
   border: none;
@@ -116,7 +116,7 @@ body {
   align-items: center;
 }
 
-.searchbar button i{
+.searchbar button i {
   font-size: 18px;
   color: #ffffff;
   margin-right: 5px;

@@ -4,4 +4,3 @@ let navbar = document.getElementById("navbar");
 menuicon.addEventListener("click", () => {
   navbar.classList.toggle("showmenu");
 });
-
