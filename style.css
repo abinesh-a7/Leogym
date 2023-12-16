@@ -505,6 +505,23 @@ form button a {
   margin: 5px;
 }
 
+/* footer style  */
+
+footer{
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p{
+  font-size: 15px;
+}
+
+footer p a{
+  color: #ff2953;
+  font-weight: 600;
+}
+
 /* Media queries section style  */
 
 @media (max-width: 1200px) {
@@ -621,11 +638,11 @@ form button a {
     left: 0;
     width: 100%;
     height: 0px;
-    background: rgba(211, 76, 101, 0.5);
+    background: rgba(0, 0, 0, 0.5);
     overflow: hidden;
     transition: 0.4s;
   }
-
+  
   .navbar a {
     display: block;
     text-align: center;
@@ -705,6 +722,26 @@ form button a {
     top: 100%;
     left: 15%;
     height: 4px;
+  }
+
+  .contact-content form input {
+    margin: 10px 0px;
+    width: 470px;
+    height: 40px;
+    outline: none;
+    border: none;
+    font-size: 16px;
+    padding: 10px;
+  }
+
+  .contact-content form textarea {
+    width: 470px;
+    margin: 10px 0px;
+  }
+
+  .contact-content form button {
+    transform: translateX(360px);
+    width: 100px;
   }
 }
 
@@ -803,4 +840,8 @@ form button a {
     transform: translateX(160px);
     width: 100px;
   }
+
+  footer p{
+  font-size: 13px;
+}
 }
